@@ -4,7 +4,7 @@ def execTime(code):
     start = time.clock()
     result = eval(code)
     runningTime = time.clock() - start
-    print str(runningTime) + ' seconds.'
+    print(code+' took: '+str(runningTime)+' seconds.')
 
 
 def myCode(n):
